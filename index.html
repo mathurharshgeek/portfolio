@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="My Portfolio Website" />
+
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <!-- Font Awesome -->
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js">
+  </script> -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  
+  <header id="header">
+
+    <!-- Header Part-1 -->
+
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+
+    <div class="header-part1">  
+      <nav id="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link btn-underline-from-center" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link btn-underline-from-center" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link btn-underline-from-center" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link btn-underline-from-center" href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+
+      <!-- Logo -->
+      <div class="logo">
+          My Portfolio
+      </div>
+    </div>
+
+    <!-- Header Part-2 -->
+    <div class="header-part2">
+      <div class="heading">
+        <h1>Namaste, I am Harsh</h1>
+        <p> Advance Backend Web Developer | Enthusiastic Programer</p>
+        <button onclick="location.href='#about'" class="btn btn-translate">
+          Know more</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="profile">
+      <img class=" circular-img" src="./assets/pp.png" alt="Profile Image" data-aos="flip-left" data-aos-duration="1000"/>
+
+      <div class="about-me" data-aos="zoom-out-left">
+        <p>Welcome To My Portfolio ..i`m Harsh I Build Advance Backend Websites Using Node JS  I Have 3 Years Challanging Experience With This Technology !! </p>
+        <p>The Whole Journey Was Challanging Because I`m A Self Taught Developer..Yes I learned Everthing Using Youtube And Other Free Resources..I Have Made satisfy Number Of Projects.</p>
+        <p> During Those Projects I Went Throgh A Lot Of Bugs And Anxity But My consistency Made Me Belive  * I WORTH IT*</p>
+       <p> I Have Uploaded Some of The Good Projects Here...Check Them Below</p>
+       <p>Get In Touch With Me I have Mentioned My Social Handels Below</p>
+        <button class="btn btn-sweep-to-right"
+        onclick="window.open('./assets/Resume.docx', '_blank'); return false;">
+        Resume</button>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 class="projects-head">My Projects</h2>
+    <div class="project">
+      <img class="tilt project-image" src="./assets/rentride.png" alt="rent-ride" data-aos="fade-down-right" data-tilt/>
+      <div data-aos="fade-up-left">
+        <h2 class="project-heading">Rent & Ride Web App !</h2> 
+        <p class="project-description">An Real Time Vehicle Booking Web APP That Provides A Mutual Platform For Renter And Rider To Complete Transaction Of The Vehicle. </p>
+        <p>This Project Includes All Other Feature Like Secure Admin Panel , CMS,Placing An Order Functionality ..With Current Time </p>
+        <p>This Project Was Build Using Node Js,MongoDB,express js and socket io </p>
+        <button class="btn btn-wobble-bottom"
+        onclick="window.open('https://github.com/harshmathurgeek/mybakery', '_blank'); return false;">
+        Source Code</button>
+        <button class="btn btn-translate"
+        onclick="window.open('https://rent-ride.vercel.app//', '_blank'); return false;">
+        See Live</button>
+      </div>
+    </div>    
+<!-- bakery project -->
+<div class="project">
+  <img class="tilt project-image" src="./assets/Bakery.png" alt="rent-ride" data-aos="fade-down-right" data-tilt/>
+  <div data-aos="fade-up-left">
+    <h2 class="project-heading">E-Commerce Bakery Web App !</h2> 
+    <p class="project-description">An Real Time Cake Booking Web APP That Provides A  Platform That Allows User TO Book Cake Online. </p>
+    <p>This Project Includes All E-Comm. Feature Like Secure Admin Panel , CMS,Placing An Order Functionality ..With Current Time </p>
+    <p>This Project Was Build Using Node Js,MongoDB,express js and socket io </p>
+    <button class="btn btn-wobble-bottom"
+    onclick="window.open('https://github.com/harshmathurgeek/mybakery', '_blank'); return false;">
+    Source Code</button>
+    <button class="btn btn-translate"
+    onclick="window.open('https://bakery-portfolio.vercel.app/', '_blank'); return false;">
+    See Live</button>
+  </div>
+</div>    
+<!-- tic tac Project -->
+<div class="project">
+  <img class="tilt project-image" src="./assets/tic.png" alt="rent-ride" data-aos="fade-down-right" data-tilt/>
+  <div data-aos="fade-up-left">
+    <h2 class="project-heading">Tic-Tac-Toe Game !</h2> 
+    <p class="project-description">Who Does Not Like Playing X and O ? </p>
+    <p>this project was devloped using javascript, Bootstrap,CSS  And HTML</p>
+    <button class="btn btn-wobble-bottom"
+    onclick="window.open('https://github.com/harshmathurgeek/tic-tac-toe.github.io', '_blank'); return false;">
+    Source Code</button>
+    <button class="btn btn-translate"
+    onclick="window.open('https://tictactoejs.z29.web.core.windows.net/', '_blank'); return false;">
+    See Live</button>
+  </div>
+</div>    
+
+
+  <div class="project">
+      <img class="tilt project-image" src="./assets/wea1.png" alt="Where is the face" data-aos="fade-down-right" data-tilt/>
+      <div data-aos="fade-up-left">
+        <h2 class="project-heading">Weather App</h2>
+        <p class="project-description">An Web App That Tells You Weather Details Of Any City That Exits..</p>
+        <p> I Have Used API In The Project...Check That Out</p>
+        <button class="btn btn-wobble-bottom"
+        onclick="window.open('https://harshweatherapp.000webhostapp.com/', '_blank'); return false;">
+        Source Code</button>
+        <button class="btn btn-translate"
+        onclick="window.open('https://weatherappharsh.z29.web.core.windows.net//', '_blank'); return false;">
+        See Live</button>
+      </div>
+    </div>
+
+    <div class="project">
+      <img class="tilt project-image" src="./assets/crud.png" alt="Where is the face" data-aos="fade-down-right" data-tilt/>
+      <div data-aos="fade-up-left"> 
+        <h2 class="project-heading">CRUD Web App</h2>
+        <p class="project-description">This Project Was Build Up Using NODE JS And MONGO DB  </p>
+        <p>A Web App That Performs All CRUD Operations Check It out To Find More </p>
+        <button class="btn btn-wobble-bottom"
+        onclick="window.open('https://github.com/mathurharshgeek/crud', '_blank'); return false;">
+        Source Code</button>
+        <button class="btn btn-translate"
+        onclick="window.open('https://crud-iota-seven.vercel.app/', '_blank'); return false;">
+        See Live</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2 class="skills-head">My Skills</h2>
+    <div class="skills-list">
+       
+        <div class="skill">
+          <i class="origin  javascript fab fa-js fa-2x"></i>
+        </div>
+        <div class="skill">
+          <i class="origin css fab fa-css3-alt fa-2x"></i>
+        </div>
+        <div class="skill">
+          <i class="origin bootstrap fab fa-bootstrap fa-2x"></i>
+        </div>
+        <div class="skill">
+          <i class="origin html fab fa-html5 fa-2x"></i>
+        </div>
+        <div class="skill">
+          <i class="origin nodejs fab fa-node fa-2x"></i>
+        </div>
+        <div class="skill">
+          <img class="origin expressjs" src="./assets/expressjs.png" alt="Express.js">
+        </div>
+        <div class="skill">
+          <img class="origin mongodb" src="./assets/mongodb.png" alt="MongoDB">
+        </div>
+     
+        <div class="skill">
+          <img class="origin ejs" src="./assets/ejs.jpg" alt="EJS">
+        </div>
+        <div class="skill">
+          <img class="origin ejs" src="./assets/wordpress.png" alt="wordpress">
+        </div> <div class="skill">
+          <img class="origin ejs" src="./assets/socket.png" alt="socket">
+        </div>
+        <div class="skill">
+          <i class="origin git fab fa-git-square fa-2x"></i>
+        </div>
+        <div class="skill">
+          <i class="origin java fab fa-java fa-2x"></i>
+        </div>
+        <div class="skill">
+          <img class="origin c-plus-plus" src="./assets/c++.png" alt="C++">
+        </div>
+        <div class="skill">
+          <img class="origin c" src="./assets/c.png" alt="C">
+        </div>
+    </div> 
+  </section>
+
+  <section id="contact">
+    <h2 data-aos="fade-right">CONTACT</h2>
+    <button onclick="location.href='mailto:mathurharsh773@gmail.com'" 
+    class="btn btn-sweep-to-right" data-aos="fade-left">
+      Mail Me at mathurharsh773@gmail.com</button>
+  </section>
+
+  <footer id="footer">
+    
+
+    <a href="https://www.linkedin.com/in/harsh-roop-rai
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    " target="_blank" 
+    rel="noopener noreferrer">
+      <i class="icon fab fa-linkedin fa-3x"></i>
+    </a>
+
+    <a href="https://github.com/mathurharshgeek" target="_blank" 
+    rel="noopener noreferrer">
+      <i class="icon fab fa-github fa-3x"></i>
+    </a>
+    <a href="https://instagram.com/mathur.harsh?igshid=1psxxl7s7bq7n" target="_blank" 
+    rel="noopener noreferrer">
+      <i class="icon fab fa-instagram fa-3x"></i>
+    </a>
+  </footer>
+
+  <script src="./js/script.js"></script>
+
+  <!-- Vanilla Tilt -->
+  <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".tilt"), {
+      max: 45,
+      speed: 100,
+      reverse: true
+    });  
+  </script>
+
+  <!-- Animate on scroll (AOS) -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
